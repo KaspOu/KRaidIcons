@@ -99,9 +99,35 @@ function K_SHARED_UI.AddRefreshOptions(func)
     table.insert(K_SHARED_UI.optionsRefreshFuncs, func)
 end
 function K_SHARED_UI.RefreshOptions()
+    local currentOptions = {}
+    foreach(_G[ns.OPTIONS_NAME],
+        function (optionName, defaultValue)
+            local optionsObject = ns.FindControl(optionName);
+            if (optionsObject ~= nil) then
+                local control = optionsObject;
+                local previousValue = _G[ns.OPTIONS_NAME][optionName] or defaultValue;
+                local value = nil;
+
+                if control.type == "color" then
+                    value = control:GetColor();
+                elseif control.type == "dropdown" then
+                    value = control:GetValue();
+                elseif control.type == CONTROLTYPE_SLIDER then
+                    value = control:GetValue();
+                elseif type(previousValue) == "boolean" then
+                    value = control:GetChecked();
+                end
+                if value == nil then
+                    ns.AddMsgErr(format("Incorrect field value, loading default value for %s...", optionName));
+                    value = defaultValue;
+                end;
+                currentOptions[optionName] = value;
+            end
+        end
+    );
     foreach(K_SHARED_UI.optionsRefreshFuncs,
         function (_, func)
-            func()
+            func(currentOptions)
         end
     );
 end
