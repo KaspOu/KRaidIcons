@@ -1,3 +1,6 @@
+v11.0.203
+- Direct preview
+
 v11.0.202
 - Added relative positions (x, y)
 

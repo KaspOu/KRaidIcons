@@ -134,10 +134,13 @@ local function onSaveOptions(self, options)
 			f:RegisterEvent("PLAYER_LOGIN");
 			f:SetScript("OnEvent", OnEvent);
 
+			-- Direct preview options
 			K_SHARED_UI.AddRefreshOptions(
-				function(currentOptions)
-					ResizeRaidIconsTextures(currentOptions.RaidsIcons_Size or DEFAULT_RAIDICON_SIZE)
-					SetRaidIcons(false, currentOptions);
+				function(previewOptions)
+					if (previewOptions) then
+						ResizeRaidIconsTextures(previewOptions.RaidsIcons_Size or DEFAULT_RAIDICON_SIZE)
+						SetRaidIcons(false, previewOptions);
+					end
 				end
 			)
 		else

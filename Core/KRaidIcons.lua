@@ -11,10 +11,10 @@ local isLoaded = false;
 local defaultOptions = {
 	Version = ns.VERSION,
 
-	RaidsIcons_Anchor = "CENTER",
+	RaidsIcons_Anchor = "TOPRIGHT",
 	RaidsIcons_Size = 12,
-	RaidsIcons_PosX = 0,
-	RaidsIcons_PosY = -2,
+	RaidsIcons_PosX = -4,
+	RaidsIcons_PosY = -4,
 
 	ShowMsgNormal = true,
 	ShowMsgWarning = true,
