@@ -1,9 +1,9 @@
-## Interface: 110005, 40401, 11504, 11505
+## Interface: 110005, 110007, 40401, 11504, 11505
 ## Title: |cff00ff00K|r Raid Icons
 ## Title-frFR: |cff00ff00K|r Raid Icons
 ## Notes: Shows target icons on raid frames
 ## Notes-frFR: Affiche les icones de cible sur les barres de raids.
-## Version: 11.0.501
+## Version: 11.0.701
 ## Author: Kallye of Elune
 ## SavedVariables: KRaidIconsOptions
 ## IconTexture: Interface\AddOns\KNameplateColor\Logo32
