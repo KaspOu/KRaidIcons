@@ -18,6 +18,7 @@ l.MSG_LOADED         = format("%s загружен и активен", l.VERS_TI
 l.INIT_FAILED = format("%s неправильно инициализирован (конфликт?)!", l.VERS_TITLE);
 
 -- local required = l.YL.."*";
+-- KRI START
 l.OPTION_RAIDICONS_HEADER = "Значки рейдов |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t";
 l.OPTION_RAIDICONS_ANCHOR = "Выравнивание значков";
 l.OPTION_RAIDICONS_ANCHOR_TOOLTIP = "Положение значка цели в рамке рейда";
@@ -32,6 +33,7 @@ l.OPTION_RAIDICONS_RELATIVE_X = "Горизонтальное положение
 l.OPTION_RAIDICONS_RELATIVE_X_TOOLTIP = "Отрегулируйте относительное горизонтальное положение значков рейда.";
 l.OPTION_RAIDICONS_RELATIVE_Y = "Вертикальное положение";
 l.OPTION_RAIDICONS_RELATIVE_Y_TOOLTIP = "Отрегулируйте относительное вертикальное положение значков рейда.";
+-- KRI END
 
 l.OPTION_RESET_OPTIONS = "Сбросить настройки";
 l.OPTION_RELOAD_REQUIRED = "Некоторые изменения требуют перезагрузки (введите: "..l.YL.."/reload|r )";

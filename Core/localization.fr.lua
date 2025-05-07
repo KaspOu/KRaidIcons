@@ -1,4 +1,4 @@
--------------------------------------------------------------------------------
+﻿-------------------------------------------------------------------------------
 -- French localization
 -------------------------------------------------------------------------------
 if (GetLocale() ~= "frFR") then return end
@@ -18,6 +18,7 @@ l.MSG_LOADED         = format("%s lanc\195\169 et actif", l.VERS_TITLE);
 l.INIT_FAILED = format("%s pas charg\195\169 correctement (conflit ?) !", l.VERS_TITLE);
 
 -- local required = l.YL.."*";
+-- KRI START
 l.OPTION_RAIDICONS_HEADER = "Ic\195\180nes de raid";
 l.OPTION_RAIDICONS_ANCHOR = "Alignement des ic\195\180nes";
 l.OPTION_RAIDICONS_ANCHOR_TOOLTIP = "Position de l'ic\195\180ne cible dans le cadre de raid";
@@ -32,6 +33,7 @@ l.OPTION_RAIDICONS_RELATIVE_X = "Position horizontale";
 l.OPTION_RAIDICONS_RELATIVE_X_TOOLTIP = "Ajustez la position horizontale relative des ic\195\180nes de raid";
 l.OPTION_RAIDICONS_RELATIVE_Y = "Position verticale";
 l.OPTION_RAIDICONS_RELATIVE_Y_TOOLTIP = "Ajustez la position verticale relative des ic\195\180nes de raid";
+-- KRI END
 
 l.OPTION_RESET_OPTIONS = "R\195\169initialiser le profil";
 l.OPTION_RELOAD_REQUIRED = "Certains changements n\195\169cessitent un rechargement (\195\169crivez : "..l.YL.."/reload|r )";

@@ -1,4 +1,4 @@
--------------------------------------------------------------------------------
+﻿-------------------------------------------------------------------------------
 -- English localization (Default)
 -------------------------------------------------------------------------------
 
@@ -18,7 +18,8 @@ l.MSG_LOADED         = format("%s loaded and active", l.VERS_TITLE);
 l.INIT_FAILED = format("%s not initialized correctly (conflict?)!", l.VERS_TITLE);
 
 -- local required = l.YL.."*";
-l.OPTION_RAIDICONS_HEADER = "Raid icons |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t";
+-- KRI START
+l.OPTION_RAIDICONS_HEADER = "Raid icons |TInterface/TargetingFrame/UI-RaidTargetingIcon_1:0|t";
 l.OPTION_RAIDICONS_ANCHOR = "Icon alignement";
 l.OPTION_RAIDICONS_ANCHOR_TOOLTIP = "Position of the target icon in the raid frame";
 l.OPTION_CENTER = "Center"
@@ -32,6 +33,7 @@ l.OPTION_RAIDICONS_RELATIVE_X = "Horizontal position";
 l.OPTION_RAIDICONS_RELATIVE_X_TOOLTIP = "Adjust the relative horizontal position of the raid icons";
 l.OPTION_RAIDICONS_RELATIVE_Y = "Vertical position";
 l.OPTION_RAIDICONS_RELATIVE_Y_TOOLTIP = "Adjust the relative vertical position of the raid icons";
+-- KRI END
 
 l.OPTION_RESET_OPTIONS = "Reset options";
 l.OPTION_RELOAD_REQUIRED = "Some changes require reloading (write: "..l.YL.."/reload|r )";
