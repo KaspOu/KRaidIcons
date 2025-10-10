@@ -8,6 +8,7 @@
 ## Notes-esES: Muestra iconos de objetivo en los marcos de banda.
 ## Notes-esMX: Muestra iconos de objetivo en los marcos de banda.
 ## Notes-itIT: Mostra le icone del bersaglio sui riquadri del raid.
+## Notes-ptBR: Mostra \195\173cones de alvo nos quadros de raide.
 ## Notes-koKR: 공격대 프레임에 대상 아이콘을 표시합니다.
 ## Notes-zhCN: 在团队框架上显示目标图标。
 ## Notes-zhTW: 在團隊框架上顯示目標圖標。
@@ -18,7 +19,7 @@
 ## IconTexture: Interface\AddOns\KNameplateColor\Logo32
 
 ## X-Category: Unit Frames, Interface Enhancements
-## X-Localizations: enUS, frFR, ruRU, deDE, esES, esMX, itIT, koKR, zhCN, zhTW
+## X-Localizations: enUS, frFR, ruRU, deDE, esES, esMX, itIT, koKR, ptBR, zhCN, zhTW
 ## X-License: MIT
 ## X-Website: https://github.com/KaspOu/KRaidIcons/
 ## X-Curse-Project-ID: 1029817
