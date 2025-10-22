@@ -1,4 +1,4 @@
-## Interface: 120000, 110200, 110205, 50500, 50501, 11507
+## Interface: 120000, 110205, 50501, 11508
 ## Title: |cff00ff00K|r Raid Icons
 ## Title-frFR: |cff00ff00K|r Raid Icons
 ## Notes: Shows target icons on raid frames
@@ -13,8 +13,9 @@
 ## Notes-zhCN: 在团队框架上显示目标图标。
 ## Notes-zhTW: 在團隊框架上顯示目標圖標。
 
-## Version: 11.2.502
+## Version: 11.2.503
 ## Author: Kallye of Elune
+## LoadSavedVariablesFirst: 1
 ## SavedVariables: KRaidIconsOptions
 ## IconTexture: Interface\AddOns\KNameplateColor\Logo32
 
@@ -27,7 +28,15 @@
 ## X-Wago-ID: n6VPZ8Gd
 
 Core\KRaidIcons.globals.lua
-Core\locales.xml
+Core\localization.en.lua
+Core\localization.fr.lua [AllowLoadTextLocale frFR]
+Core\localization.de.lua [AllowLoadTextLocale deDE]
+Core\localization.es.lua [AllowLoadTextLocale esES, esMX]
+Core\localization.it.lua [AllowLoadTextLocale itIT]
+Core\localization.ko.lua [AllowLoadTextLocale koKR]
+Core\localization.pt.lua [AllowLoadTextLocale ptBR]
+Core\localization.ru.lua [AllowLoadTextLocale ruRU]
+Core\localization.zh.lua [AllowLoadTextLocale zhCN, zhTW]
 Shared\WidgetsKRI.xml
 Modules\modules.xml
 Core\KRaidIcons.xml
