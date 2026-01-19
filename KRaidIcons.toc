@@ -1,4 +1,4 @@
-## Interface: 120000, 110205, 110207, 50501, 50502, 38000, 11508
+## Interface: 120000, 110205, 110207, 50501, 50502, 38000, 20505, 11508
 ## Title: |cff00ff00K|r Raid Icons
 ## Title-frFR: |cff00ff00K|r Raid Icons
 ## Notes: Shows target icons on raid frames
@@ -13,7 +13,7 @@
 ## Notes-zhCN: 在团队框架上显示目标图标。
 ## Notes-zhTW: 在團隊框架上顯示目標圖標。
 
-## Version: 11.2.701
+## Version: 11.2.702
 ## Author: Kallye of Elune
 ## LoadSavedVariablesFirst: 1
 ## SavedVariables: KRaidIconsOptions
