@@ -17,11 +17,11 @@
 ## Author: Kallye of Elune
 ## LoadSavedVariablesFirst: 1
 ## SavedVariables: KRaidIconsOptions
-## IconTexture: Interface\AddOns\KNameplateColor\Logo32
+## IconTexture: Interface\AddOns\KRaidIcons\Logo32
 
-## X-Category: Unit Frames, Interface Enhancements
+## X-Category: Raid Frames, Unit Frames, Healer, Interface Enhancements
 ## X-Localizations: enUS, frFR, ruRU, deDE, esES, esMX, itIT, koKR, ptBR, zhCN, zhTW
-## X-License: MIT
+## X-License: All Rights Reserved
 ## X-Website: https://github.com/KaspOu/KRaidIcons/
 ## X-Curse-Project-ID: 1029817
 ## X-WoWI-ID: 26754
