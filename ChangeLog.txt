@@ -1,3 +1,6 @@
+v11.2.504
+- Fix icons while in party only
+
 v11.2.503
 - Classic 1.15.8
 
