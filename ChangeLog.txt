@@ -1,3 +1,22 @@
+v12.0.101
+- Midnight 12.0.1
+
+v12.0.004
+- Fix RaidTarget Icons while in party
+
+v12.0.003
+- Shared code udpated
+
+v12.0.001
+- Midnight prepatch fixes
+
+v11.2.702
+- Classic Anniversary
+
+v11.2.701
+- TWW 11.2.7
+- Wotlk China
+
 v11.2.504
 - Fix icons while in party only
 

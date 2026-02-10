@@ -13,7 +13,7 @@
 ## Notes-zhCN: 在团队框架上显示目标图标。
 ## Notes-zhTW: 在團隊框架上顯示目標圖標。
 
-## Version: 12.0.004
+## Version: 12.0.101
 ## Author: Kallye of Elune
 ## LoadSavedVariablesFirst: 1
 ## SavedVariables: KRaidIconsOptions
