@@ -38,10 +38,6 @@ local function SLASH_command(msgIn)
 	end
 end
 
-local function SLASH_CLEAR_command()
-	SELECTED_CHAT_FRAME:Clear()
-end
-
 local function OnEvent(self, event, ...)
 	local arg1 = select(1, ...);
 	if (event == "ADDON_LOADED" and arg1 == ns.ADDON_NAME) then
@@ -50,6 +46,7 @@ local function OnEvent(self, event, ...)
 
 		ns.SetDefaultOptions(defaultOptions);
 		ns.RefreshOptions(defaultOptions);
+		ns.BindOptionControls(defaultOptions, nil);
 
 		-- Load Module (standalone addon)
 
@@ -71,8 +68,8 @@ local function InitAddon(frame)
 
 	isInit = true;
 	frame:SetScript("OnEvent",
-		function(self, event, ...)
-			OnEvent(self, event, ...);
+		function(frame, event, ...)
+			OnEvent(frame, event, ...);
 		end
 	);
 	frame:RegisterEvent("ADDON_LOADED");
@@ -111,11 +108,6 @@ end
 local refreshOptions = function()
 	ns.RefreshOptions(defaultOptions, true);
 end
-
-
-local saveOptions = function()
-	ns.SaveOptions(defaultOptions, nil);
-end
 function ns.InterfaceOptions_AddCategory(frame, addOn, position)
 	if not Settings or not Settings.RegisterCanvasLayoutSubcategory then
 		return InterfaceOptions_AddCategory(frame, addOn, position)
@@ -146,7 +138,7 @@ function KRIUI.OptionsContainer_OnLoad(self, scrollFrame, optionsFrame)
 	ns.scrollFrame = scrollFrame;
 	ns.optionsFrame = optionsFrame;
 	self.name = ns.TITLE;
-	self.okay = saveOptions;
+	self.okay = ns.FlushOptionsChanges -- options are already saved in real time
 	self.refresh = refreshOptions;
 	ns.InterfaceOptions_AddCategory(self);
 	if (ns.scrollFrame ~= nil) then

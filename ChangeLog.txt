@@ -1,3 +1,6 @@
+v12.1.004
+- Refactor code for live preview
+
 v12.1.001
 - Midnight 12.1.0
 
