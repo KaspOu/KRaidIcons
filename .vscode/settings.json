@@ -46,7 +46,33 @@
         "CreateColor",
         "CopyTable",
         "GameTooltip",
-        "SOUNDKIT"
+        "SOUNDKIT",
+        "format",
+        "string",
+        "C_AddOns",
+        "tonumber",
+        "gsub",
+        "type",
+        "foreach",
+        "CreateFrame",
+        "InCombatLockdown",
+        "_G",
+        "select",
+        "GetRaidTargetIndex",
+        "SetRaidTargetIconTexture",
+        "C_Timer",
+        "IsInRaid",
+        "IsInGroup",
+        "pairs",
+        "table",
+        "setmetatable",
+        "ipairs",
+        "tContains",
+        "next",
+        "PlaySound",
+        "unpack",
+        "tostring",
+        "math"
     ],
     "cSpell.words": [
         "prepatch"
@@ -87,6 +113,6 @@
         "utf8": "disable"
     },
     "Lua.workspace.library": [
-        "c:\\Users\\Utilisateur\\.cursor\\extensions\\ketho.wow-api-0.20.6\\Annotations\\Core"
+        "c:\\Users\\Utilisateur\\.cursor\\extensions\\ketho.wow-api-0.20.7\\Annotations\\Core"
     ]
 }
