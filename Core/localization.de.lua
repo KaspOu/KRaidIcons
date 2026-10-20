@@ -17,7 +17,7 @@ l.MSG_LOADED         = format("%s geladen und aktiv", l.VERS_TITLE);
 
 l.INIT_FAILED = format("%s nicht korrekt initialisiert (Konflikt?)!", l.VERS_TITLE);
 
--- local required = l.YL.."*";
+local required = l.YL.."*";
 -- KRI START
 l.OPTION_RAIDICONS_HEADER = "Raid-Symbole";
 l.OPTION_RAIDICONS_ANCHOR = "Symbolausrichtung";
@@ -41,4 +41,6 @@ l.OPTIONS_ASTERIX = l.YL.."*|r"..l.WH..": Optionen, die einen Neuladen erfordern
 l.OPTION_SHOWMSGNORMAL = l.GYL.."Nachrichten anzeigen";
 l.OPTION_SHOWMSGWARNING = l.GYL.."Warnungen anzeigen";
 l.OPTION_SHOWMSGERR = l.GYL.."Fehler anzeigen";
+l.OPTION_COMPARTMENT_FILTER = "Im Fachfilter anzeigen"..required;
+l.OPTION_COMPARTMENT_FILTER_TOOLTIP = "In der Addon-Liste oben rechts";
 l.OPTION_WHATSNEW = "Neuigkeiten";

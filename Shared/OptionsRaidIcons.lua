@@ -12,5 +12,6 @@ local function ManageRaidIconsOptions()
 
     ns.OptionsSiblingsEnable(_G[ns.OPTIONS_NAME], activeCheckbox, isEnabled, .2)
 
+	ns.OptionsEnable(ns.optionsFrame.AddonCompartmentFilter,	not not AddonCompartmentFrame, 0);
 end
 K_SHARED_UI.AddRefreshOptions(ManageRaidIconsOptions)

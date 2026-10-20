@@ -17,7 +17,7 @@ l.MSG_LOADED         = format("%s iniciado e ativo", l.VERS_TITLE);
 
 l.INIT_FAILED = format("%s n\195\163o carregado corretamente (conflito ?) !", l.VERS_TITLE);
 
--- local required = l.YL.."*";
+local required = l.YL.."*";
 -- KRI START
 l.OPTION_RAIDICONS_HEADER = "\195\174cones de raide";
 l.OPTION_RAIDICONS_ANCHOR = "Alinhamento dos \195\174cones";
@@ -41,4 +41,6 @@ l.OPTIONS_ASTERIX = l.YL.."*|r"..l.WH..": Op\195\167\195\182es que exigem um rec
 l.OPTION_SHOWMSGNORMAL = l.GYL.."Exibir mensagens";
 l.OPTION_SHOWMSGWARNING = l.GYL.."Exibir alertas";
 l.OPTION_SHOWMSGERR = l.GYL.."Exibir erros";
+l.OPTION_COMPARTMENT_FILTER = "Exibir no Filtro de Compartimento"..required;
+l.OPTION_COMPARTMENT_FILTER_TOOLTIP = "Na lista de addons no canto superior direito";
 l.OPTION_WHATSNEW = "Novidades";

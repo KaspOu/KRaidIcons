@@ -17,7 +17,7 @@ l.MSG_LOADED         = format("%s загружен и активен", l.VERS_TI
 
 l.INIT_FAILED = format("%s неправильно инициализирован (конфликт?)!", l.VERS_TITLE);
 
--- local required = l.YL.."*";
+local required = l.YL.."*";
 -- KRI START
 l.OPTION_RAIDICONS_HEADER = "Значки рейдов |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t";
 l.OPTION_RAIDICONS_ANCHOR = "Выравнивание значков";
@@ -41,4 +41,6 @@ l.OPTIONS_ASTERIX = l.YL.."*|r"..l.WH..": Настройки, требующие
 l.OPTION_SHOWMSGNORMAL = l.GYL.."Отображать сообщения";
 l.OPTION_SHOWMSGWARNING = l.GYL.."Отображать предупреждения";
 l.OPTION_SHOWMSGERR = l.GYL.."Отображать ошибки";
+l.OPTION_COMPARTMENT_FILTER = "Показывать в фильтре отсеков"..required; -- ChatGPT
+l.OPTION_COMPARTMENT_FILTER_TOOLTIP = "В списке дополнений в правом верхнем углу"; -- ChatGPT
 l.OPTION_WHATSNEW = "Что нового";

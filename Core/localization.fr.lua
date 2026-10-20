@@ -17,7 +17,7 @@ l.MSG_LOADED         = format("%s lanc\195\169 et actif", l.VERS_TITLE);
 
 l.INIT_FAILED = format("%s pas charg\195\169 correctement (conflit ?) !", l.VERS_TITLE);
 
--- local required = l.YL.."*";
+local required = l.YL.."*";
 -- KRI START
 l.OPTION_RAIDICONS_HEADER = "Ic\195\180nes de raid";
 l.OPTION_RAIDICONS_ANCHOR = "Alignement des ic\195\180nes";
@@ -41,6 +41,8 @@ l.OPTIONS_ASTERIX = l.YL.."*|r"..l.WH..": Options n\195\169cessitant un recharge
 l.OPTION_SHOWMSGNORMAL = l.GYL.."Afficher les messages";
 l.OPTION_SHOWMSGWARNING = l.GYL.."Afficher les alertes";
 l.OPTION_SHOWMSGERR = l.GYL.."Afficher les erreurs";
+l.OPTION_COMPARTMENT_FILTER = "Afficher dans le Compartment Filter"..required;
+l.OPTION_COMPARTMENT_FILTER_TOOLTIP = "Dans la liste des addons en haut à droite";
 l.OPTION_WHATSNEW = "Nouveaut\195\169s";
 
 --@do-not-package@
