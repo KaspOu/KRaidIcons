@@ -72,7 +72,8 @@
         "PlaySound",
         "unpack",
         "tostring",
-        "math"
+        "math",
+        "AddonCompartmentFrame"
     ],
     "cSpell.words": [
         "prepatch"
