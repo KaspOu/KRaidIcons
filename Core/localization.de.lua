@@ -27,16 +27,16 @@ l.OPTION_TOPLEFT = "Oben Links";
 l.OPTION_TOPRIGHT = "Oben Rechts";
 l.OPTION_BOTTOMLEFT = "Unten Links";
 l.OPTION_BOTTOMRIGHT = "Unten Rechts";
-l.OPTION_RAIDICONS_SIZE = "Symbolgr\195\182\195\159e";
-l.OPTION_RAIDICONS_SIZE_TOOLTIP = "Passen Sie die Gr\195\182\195\159e der Raid-Symbole an";
+l.OPTION_RAIDICONS_SIZE = "Symbolgröße";
+l.OPTION_RAIDICONS_SIZE_TOOLTIP = "Passen Sie die Größe der Raid-Symbole an";
 l.OPTION_RAIDICONS_RELATIVE_X = "Horizontale Position";
 l.OPTION_RAIDICONS_RELATIVE_X_TOOLTIP = "Passen Sie die relative horizontale Position der Raid-Symbole an";
 l.OPTION_RAIDICONS_RELATIVE_Y = "Vertikale Position";
 l.OPTION_RAIDICONS_RELATIVE_Y_TOOLTIP = "Passen Sie die relative vertikale Position der Raid-Symbole an";
 -- KRI END
 
-l.OPTION_RESET_OPTIONS = "Profil zur\195\188cksetzen";
-l.OPTION_RELOAD_REQUIRED = "Einige \195\132nderungen erfordern einen Neuladen (tippe: "..l.YL.."/reload|r )";
+l.OPTION_RESET_OPTIONS = "Profil zurücksetzen";
+l.OPTION_RELOAD_REQUIRED = "Einige Änderungen erfordern einen Neuladen (tippe: "..l.YL.."/reload|r )";
 l.OPTIONS_ASTERIX = l.YL.."*|r"..l.WH..": Optionen, die einen Neuladen erfordern";
 l.OPTION_SHOWMSGNORMAL = l.GYL.."Nachrichten anzeigen";
 l.OPTION_SHOWMSGWARNING = l.GYL.."Warnungen anzeigen";
